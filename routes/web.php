@@ -19,3 +19,9 @@ Route::get('/', function () {
 Route::get('/loncalculation', function () {
     return view('loncalculation');
 });
+Route::get('/loncalculation/zero', function () {
+    return view('loncalculation_zero');
+});
+Route::get('/easy', function () {
+    return view('easy.easypayment');
+});
